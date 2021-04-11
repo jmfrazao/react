@@ -1,15 +1,17 @@
 import React from "react"
 
-function ToDoItem() {
+function ToDoItem(props) {
     const styles ={
         color: "black",
         backgroundColor: "lightgrey",
-        fontSize: 35
+        fontSize: 35,
+        display:"block"
     }
     return (
-        <div className = "todo-item">
-            <input type = "checkbox" />
-            <p style= {styles}>PlaceHolder text</p>
+        <div style= {styles} className = "todo-item">
+            <input type = "checkbox" checked = {props.item.completed} />
+            <t >{props.item.text}</t>
+            <hr/>
         </div>
     )
 }
