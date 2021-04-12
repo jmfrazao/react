@@ -1,0 +1,24 @@
+.oneLine{
+    background-color: grey;
+    color: black;
+    height: 15%;
+    margin-bottom: 5%;
+}
+.joke{
+    height: 20%;
+    margin-bottom: 5%;
+}
+.question{
+    background-color: grey;
+    color:black;
+    height: 50%;
+    margin:0;
+}
+
+.punchline{
+    background-color: rgb(112, 112, 112);
+    color:black;
+    border:0;
+    height: 50%;
+    margin: 0;
+}
